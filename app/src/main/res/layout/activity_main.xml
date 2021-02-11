@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RadioGroup
+        android:id="@+id/rGroup"
+        android:layout_marginTop="150dp"
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="123dp">
+
+        <RadioButton
+            android:id="@+id/rbUno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Uno" />
+
+        <RadioButton
+            android:id="@+id/rbDos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dos" />
+
+        <RadioButton
+            android:id="@+id/rbTres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tres" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:hint="Ingrese su nombre"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:onClick="Siguiente"
+        android:text="Siguiente" />
+</LinearLayout>
